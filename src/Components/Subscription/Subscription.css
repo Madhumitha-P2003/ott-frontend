@@ -1,0 +1,71 @@
+.subscription-page {
+  min-height: 100vh;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.subscription-box {
+  color: #fff;
+  width: 80%;
+  max-width: 900px;
+  text-align: center;
+}
+
+.subscription-box h1 {
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.plan {
+  background: #111;
+  padding: 30px;
+  flex: 1;
+  border-radius: 6px;
+  border: 2px solid transparent;
+}
+
+.plan.active {
+  border-color: #e50914;
+}
+
+.plan h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.plan p {
+  margin-bottom: 12px;
+  color: #b3b3b3;
+}
+
+.plan button {
+  margin-top: 15px;
+  padding: 12px;
+  width: 100%;
+  background: #e50914;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.plan button:hover {
+  background: #f6121d;
+}
+.sub-message {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #00ff9c;
+  font-size: 15px;
+}

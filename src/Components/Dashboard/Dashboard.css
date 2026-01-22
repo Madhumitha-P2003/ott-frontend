@@ -1,0 +1,58 @@
+.dashboard {
+  margin: 40px 60px 20px;
+  padding: 25px 30px;
+  background: linear-gradient(90deg, #111, #1c1c1c);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.dashboard-left h2 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.sub-status {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #aaa;
+}
+
+.sub-status .active {
+  color: #46d369;
+  font-weight: 600;
+}
+
+.sub-status .inactive {
+  color: #e50914;
+  font-weight: 600;
+}
+
+.dashboard-actions {
+  display: flex;
+  gap: 15px;
+}
+
+.dashboard-actions button {
+  background: #2a2a2a;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.dashboard-actions button:hover {
+  background: #3a3a3a;
+}
+
+.dashboard-actions .subscribe {
+  background: #e50914;
+}
+
+.dashboard-actions .subscribe:hover {
+  background: #f6121d;
+}

@@ -1,0 +1,101 @@
+.movie-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-modal {
+  width: 92%;
+  max-height: 92vh;
+  background: #141414;
+  border-radius: 10px;
+  overflow-y: auto;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 16px;
+  right: 22px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: white;
+  z-index: 20;
+}
+
+.movie-modal-banner {
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* 🔥 STRONG NETFLIX-STYLE GRADIENT */
+.movie-modal-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(20, 20, 20, 0.95) 20%,
+    rgba(20, 20, 20, 0.7) 40%,
+    rgba(20, 20, 20, 0.3) 65%,
+    rgba(20, 20, 20, 0.1) 85%
+  );
+}
+
+/* 🔥 TEXT LAYER ABOVE EVERYTHING */
+.movie-modal-content {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  max-width: 45%;
+  z-index: 15;
+  color: #ffffff;
+}
+
+.movie-modal-content h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.movie-modal-content p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #e5e5e5;
+}
+
+/* ACTION BUTTONS */
+.movie-modal-actions {
+  margin-top: 18px;
+  display: flex;
+  gap: 14px;
+}
+
+.movie-modal-actions button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.movie-modal-actions .play {
+  background: white;
+  color: black;
+  font-weight: 600;
+}
+
+.movie-modal-actions .info {
+  background: rgba(109, 109, 110, 0.75);
+  color: white;
+}
+
+.movie-modal-trailer {
+  padding: 25px;
+}

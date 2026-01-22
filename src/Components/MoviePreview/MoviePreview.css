@@ -1,0 +1,90 @@
+.preview-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preview-card {
+  width: 850px;
+  height: 480px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  position: relative;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.8);
+}
+
+.preview-content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 2rem;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.95),
+    rgba(0,0,0,0.3),
+    transparent
+  );
+}
+
+.preview-content h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.preview-meta {
+  display: flex;
+  gap: 12px;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.match { color: #46d369; }
+.age { border: 1px solid #aaa; padding: 2px 6px; }
+.hd { border: 1px solid #aaa; padding: 2px 6px; }
+
+.preview-actions {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.preview-actions button {
+  height: 42px;
+  min-width: 42px;
+  border-radius: 50%;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.preview-actions .play {
+  background: white;
+  color: black;
+  padding: 0 18px;
+  border-radius: 6px;
+}
+
+.preview-desc {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  max-width: 90%;
+}
+
+.close-btn {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: rgba(0,0,0,0.6);
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}

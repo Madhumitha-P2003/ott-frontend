@@ -1,0 +1,78 @@
+.register-page {
+  height: 100vh;
+  width: 100vw;
+  background: 
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("../../assets/login-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.register-overlay {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-box {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 60px;
+  width: 420px;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.register-box h1 {
+  margin-bottom: 28px;
+  font-size: 32px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 16px;
+  background: #333;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.register-box input::placeholder {
+  color: #8c8c8c;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 14px;
+  background: #e50914;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.register-box button:hover {
+  background: #f6121d;
+}
+
+.signin-text {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #737373;
+}
+
+.signin-text span {
+  color: #fff;
+  cursor: pointer;
+}
+
+.signin-text span:hover {
+  text-decoration: underline;
+}

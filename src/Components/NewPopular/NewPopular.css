@@ -1,0 +1,37 @@
+.newpopular-container {
+  padding: 110px 60px 40px;
+  background: #000;
+  min-height: 100vh;
+  color: white;
+}
+
+.newpopular-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.newpopular-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 18px;
+}
+
+.newpopular-card {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.newpopular-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.newpopular-card p {
+  font-size: 0.9rem;
+  margin-top: 6px;
+  color: #ddd;
+}
+
+.newpopular-card:hover {
+  transform: scale(1.08);
+}

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./MovieModal.css";
 import axios from "../../Axios";
-import { API_KEY, IMG_BASE } from "../../Constant/constant";
+import { API_KEY, IMG_BASE } from "../../constants/constant";
 import YouTube from "react-youtube";
 import { useNavigate } from "react-router-dom";
 import { useMyList } from "../../context/MyListContext";

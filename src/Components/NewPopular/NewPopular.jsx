@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import NavBar from "../NavBar/NavBar";
 import MovieModal from "../MovieModal/MovieModal";
 import axios from "../../Axios";
-import { API_KEY, IMG_BASE } from "../../Constant/constant";
+import { API_KEY, IMG_BASE } from "../../constants/constant";
 import "./NewPopular.css";
 
 function NewPopular({ subscribed }) {

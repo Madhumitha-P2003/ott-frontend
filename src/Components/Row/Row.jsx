@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./Row.css";
 import axios from "../../Axios";
-import { API_KEY, IMG_BASE } from "../../Constant/constant";
+import { API_KEY, IMG_BASE } from "../../constants
+/constant";
 import YouTube from "react-youtube";
 import MovieModal from "../MovieModal/MovieModal";
 import { addToMyList } from "../../api/api";

@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "../../Axios";
-import { API_KEY, IMG_BASE } from "../../constants
-/constant";
+import { API_KEY, IMG_BASE } from "../../constants/constant";
 import YouTube from "react-youtube";
 import "./Banner.css";
 

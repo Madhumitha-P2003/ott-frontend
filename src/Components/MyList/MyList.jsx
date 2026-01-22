@@ -1,7 +1,6 @@
 import NavBar from "../NavBar/NavBar";
 import { useMyList } from "../../context/MyListContext";
-import { IMG_BASE } from "../../constants
-/constant";
+import { IMG_BASE } from "../../constants/constant";
 
 function MyList() {
   const { myList, removeFromMyList } = useMyList();
